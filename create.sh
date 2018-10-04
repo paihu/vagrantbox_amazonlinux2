@@ -49,7 +49,7 @@ users:
       - `ssh-keygen -y -f ~/.vagrant.d/insecure_private_key`
 chpasswd:
   list: |
-    root: amazonlinux2
+    root: vagrant
     vagrant: vagrant
   expire: False
 __EOT__
